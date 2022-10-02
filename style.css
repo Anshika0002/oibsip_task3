@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url("asset/celsius-2125_1920.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+h1 {
+    font-size: 2em;
+    margin: auto;
+    color: #010f20;
+    font-family: cursive;
+}
+
+.heading {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    
+}
+
+.container {
+    /* width: 100vw; */
+    margin: auto;
+    max-height: 90vh;
+    margin-top: 50px;
+    margin-left: 1rem;
+    display: grid;
+    place-items: center;
+
+}
+
+form {
+    /* border: 2px solid lightcoral; */
+    margin: auto;
+    width: 500px;
+    min-height: 400px;
+    text-align: center;
+    align-content: center;
+    padding: 25px;
+    background: #0a2e48;
+    color: white;
+    border-radius: 25px;
+    
+}
+
+.header {
+    font-size: 1.8rem;
+    margin: 10px auto;
+    padding: 20px;
+
+}
+
+#temp {
+    margin: 15px;
+    width: 375px;
+    height: 35px;
+}
+
+.temp_diff {
+    margin: 15px;
+    width: 375px;
+    height: 35px;
+}
+
+.submitBtn {
+    margin: 15px;
+    width: 375px;
+    height: 35px;
+    background: #01a0a0;
+    color: black;
+    border: none;
+}
+
+.submitBtn:hover {
+    cursor: pointer;
+    background: #01a0a0;
+    color: white;
+}
+
+#resultDisplay {
+    margin-bottom: 30px;
+    width: 375px;
+    height: 35px;
+    font-size: 1.5rem;
+}
+
+#emoji {
+    height: 35px;
+    font-size: 20px;
+}
+
+button,
+input,
+select {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}

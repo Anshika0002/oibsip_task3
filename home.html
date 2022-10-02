@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h1 class="heading">  TEMPERATURE CONVERTER</h1>
+            </div>
+    </nav>
+    <div class="container">
+        <form id="tempCalculator" onsubmit="calculateTemp(); return false "><br>
+            <label for="temp" class="header">Enter the Temperature :</label>
+            <br><br><br>
+            <input type="number" step="any" name="temp" id="temp" placeholder="Enter Temperature"><br />
+            <select name="temp_diff" id="temp_diff" class="temp_diff">
+                <option value="none">Select Scale</option>
+                <option value="cel">&#176;Celsius</option>
+                <option value="fah">&#176;Farenheit</option>
+            </select>
+            <br>
+            <input type="submit" class="submitBtn" name="temp"><br />
+            <span id="resultDisplay"></span>
+            <span id="emoji"></span>
+
+        </form>
+    </div>
+    <!-- js link -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0e818532e2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
